@@ -145,7 +145,7 @@ body, h1, h2, h3, p{
     background: #212a3a;
 }
 .header__checkout a:active{
-    color: #8b8e94;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .header__checkout a:last-child:hover{
@@ -255,8 +255,26 @@ background: #518534;
     width: 20px;
     height: 20px;
     background: url(../images/sprite-hover-active.png);
-    background-position: -306px 0px;
+    background-position: -303px 173px;
 }
+.header__login a:hover{
+    color: #ee3643;
+}
+.header__login a:active{
+    color: rgba(0, 0, 0, 0.302);
+}
+
+
+
+.header__login a:hover:first-child:before{
+    background: url(../images/sprite-hover-active.png);
+    background-position: -200px 173px;
+}
+.header__login a:active:first-child:before{
+    background: url(../images/sprite-hover-active.png);
+    background-position: -303px 173px;
+}
+
 .header__navigation{
     background: #32425c;
     height: 55px;

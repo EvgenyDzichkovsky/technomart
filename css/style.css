@@ -1,13 +1,57 @@
+@font-face {
+    font-family: "Cuprum";
+    src: url("../fonts/cuprum.woff") format("woff"),
+    url("../fonts/cuprum.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CuprumBold";
+    src: url("../fonts/cuprumbold.woff") format("woff"),
+    url("../fonts/cuprumbold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CuprumBoldItalic";
+    src: url("../fonts/cuprumbolditalic.woff") format("woff"),
+    url("../fonts/cuprumbolditalic.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CuprumItalic";
+    src: url("../fonts/cuprumitalic.woff") format("woff"),
+    url("../fonts/cuprumitalic.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PTSans";
+    src: url("../fonts/ptsans.woff") format("woff"),
+    url("../fonts/ptsans.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PTSansBold";
+    src: url("../fonts/ptsansbold.woff") format("woff"),
+    url("../fonts/ptsansbold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 body, h1, h2, h3, p{
     padding: 0;
     margin: 0;
 }
-.header__container{
+.container{
     width: 940px;
     margin: 0 auto;
     display: flex;
 }
-.header__technomart{
+.header{
     background: #293449;
     width: 100%;
     height: 42px;
@@ -52,7 +96,8 @@ body, h1, h2, h3, p{
 .header__search label{
     position: absolute;
     width: 17px;
-    top: 12px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 17px;
     height: 17px;
     background: url(../images/sprite-hover-active.png);
@@ -118,7 +163,6 @@ body, h1, h2, h3, p{
 .header__link--bookmarks::before{
     content: "";
     position: absolute;
-    top:-2px;
     left: 13px;
     width: 20px;
     height: 20px;
@@ -155,11 +199,13 @@ body, h1, h2, h3, p{
 .header__checkout a:last-child:focus{
 background: #518534;
 }
-
+.header__link:before{
+    top: 50%;
+    transform: translateY(-50%);
+}
 .header__link--basket::before{
     content: "";
     position: absolute;
-    top:-2px;
     left: 165px;
     width: 20px;
     height: 20px;
@@ -205,7 +251,8 @@ background: #518534;
 .header__number a:before{
     content: "";
     position: absolute;
-    top: 1px;
+    top: 50%;
+    transform: translateY(-145%);
     left: 17px;
     width: 20px;
     height: 20px;
@@ -251,7 +298,8 @@ background: #518534;
 .header__login a:first-child:before{
     content: "";
     position: absolute;
-    top: 1px;
+    top: 50%;
+    transform: translateY(-145%);
     left: 14px;
     width: 20px;
     height: 20px;

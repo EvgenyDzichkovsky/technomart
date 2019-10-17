@@ -237,10 +237,11 @@ background: #518534;
 
 
 .header__number{
-    position: relative;
+
     margin-right:65px;
 }
 .header__number a{
+    position: relative;
     font-family: "Cuprum", sans-serif;
     font-size: 21px;
     color:#ee3643;
@@ -252,7 +253,7 @@ background: #518534;
     content: "";
     position: absolute;
     top: 50%;
-    transform: translateY(-145%);
+    transform: translateY(-50%);
     left: 17px;
     width: 20px;
     height: 20px;
@@ -273,10 +274,11 @@ background: #518534;
 
 .header__login{
     font-size: 0;
-    position: relative;
+
 }
 
 .header__login a{
+    position: relative;
     font-family: "Cuprum", sans-serif;
     font-size: 21px;
     text-decoration: none;
@@ -299,7 +301,7 @@ background: #518534;
     content: "";
     position: absolute;
     top: 50%;
-    transform: translateY(-145%);
+    transform: translateY(-50%);
     left: 14px;
     width: 20px;
     height: 20px;

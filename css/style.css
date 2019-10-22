@@ -423,11 +423,13 @@ background: #518534;
     margin-right: 20px;
     background: #3bbce3;
 }
-.hero__slider-item{
+/*.hero__slider-item{
     display: flex;
     flex-grow: 1;
     margin-top: 20px;
 }
+*/
+
 
 .hero__slider{
     position: relative;
@@ -437,6 +439,7 @@ background: #518534;
     height: 266px;
     margin-right: 20px;
     background: black;
+    margin-top: 20px;
 }
 .hero__side{
     flex-direction: column;

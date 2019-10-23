@@ -42,7 +42,7 @@
 }
 
 
-body, h1, h2, h3, p{
+body, h1, h2, h3, h4, p{
     padding: 0;
     margin: 0;
 }
@@ -386,7 +386,7 @@ background: #518534;
     justify-content: space-evenly;
 }
 
-.hero__item h2{
+.hero__item h3{
     font-family: "CuprumBold", sans-serif;
     font-size: 24px;
     color: white;
@@ -408,10 +408,10 @@ background: #518534;
 }
 
 
-.hero__wrap-btn a:hover{
+.hero__meta a:hover{
     background: rgba(0, 0, 0, 0.2);
 }
-.hero__wrap-btn a:active{
+.hero__meta a:active{
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -472,18 +472,6 @@ background: #518534;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .hero__slide-btn a{
     outline: none;
     text-decoration: none;
@@ -496,7 +484,7 @@ background: #518534;
     background: #ee3643;
 }
 
-.hero__slide-text h1{
+.hero__slide-text h3{
     font-size: 36px;
     font-family: "CuprumBold",sans-serif;
     text-transform: uppercase;
@@ -517,9 +505,37 @@ background: #518534;
 
 
 
+.hero__img--paint{
+    background: url(../images/hero__img-sprites.png) no-repeat;
+    width: 80px;
+    background-position: 0 100%;
+    height: 80px;
+}
+
+.hero__img--screwdriver{
+    background: url(../images/hero__img-sprites.png) no-repeat;
+    width: 86px;
+    background-position: 0 50%;
+    height: 80px;
+}
 
 
+.hero__img--tractor{
+    background: url(../images/hero__img-sprites.png) no-repeat;
+    width: 100px;
+    background-position: 50% 0;
+    height: 80px;
+}
+.hero__img--basket{
+    background: url(../images/hero__img-sprites.png) no-repeat;
+    width: 100px;
+    background-position: 110% -2px;
+    height: 80px;
+}
 
-
-
-
+.hero__img--car{
+    background: url(../images/hero__img-sprites.png) no-repeat;
+    width: 100px;
+    background-position: 0 0;
+    height: 80px;
+}

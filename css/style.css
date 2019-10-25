@@ -575,7 +575,14 @@ background: #518534;
     background: #ee3643;
     border-radius: 3px;
 }
-
+.popular-goods__heading a:hover{
+    background: #ca2c37;
+    transition: 0.5s;
+}
+.popular-goods__heading a:active{
+    background: #ba2732;
+    transition: 0s;
+}
 
 .popular-goods__goods{
     display: flex;

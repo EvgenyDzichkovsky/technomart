@@ -539,3 +539,189 @@ background: #518534;
     background-position: 0 0;
     height: 80px;
 }
+
+
+.popular-goods{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+.popular-goods__heading{
+    background: #f9f5f0;
+    height: 89px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.popular-goods__heading h2{
+    font-family: "CuprumBold", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #32425c;
+}
+
+.popular-goods__heading a{
+    text-decoration: none;
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 14px 55px;
+    background: #ee3643;
+    border-radius: 3px;
+}
+
+
+.popular-goods__goods{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.popular-goods__item{
+    position: relative;
+    border: 1px solid #eaeaea;
+    height: 316px;
+    width: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.popular-goods__item:hover .popular-good__show{
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+}
+.popular-goods__item:hover img{
+    visibility: hidden;
+}
+
+.popular-goods__item:hover{
+    box-shadow: 0 0 10px #aeb2ba;
+}
+
+.popular-goods__item span{
+    display: flex;
+    position: relative;
+    font-family: "PTSansBold", sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    background: #ee3643;
+    border-radius: 3px;
+    padding: 0px 40px 0 36px;
+    height: 38px;
+    align-items: center;
+}
+
+.popular-goods__item span:before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    right: -15px;
+    top: -15px;
+    transform: rotate(45deg);
+}
+.popular-goods__item span:after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    right: -15px;
+    top: 23px;
+    transform: rotate(-45deg);
+}
+
+
+.popular-good__show{
+    position: absolute;
+    opacity: 0;
+    background: #fff;
+    display: flex;
+    padding: 34px;
+    flex-direction: column;
+    top: 0;
+    transition: opacity 0.5s;
+}
+
+.popular-good__show a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "CuprumBold", sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.popular-good__show a:first-child{
+    position: relative;
+    background: #63a63e;
+    color: #ffffff;
+    padding: 14px 49px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 0 0 #367315;
+}
+.popular-good__show a:first-child:hover{
+    background: #5fbb2d;
+    transition: 0.5s;
+}
+.popular-good__show a:first-child:active{
+    background: #518534;
+    transition: 0s;
+}
+.popular-good__show a:before{
+    content: "";
+    position: absolute;
+    left: 12px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/sprite-hover-active.png);
+    opacity: 0.3;
+    background-position: -9px 222px;
+}
+.popular-good__show a:hover:before{
+    content: "";
+    position: absolute;
+    left: 12px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/sprite-hover-active.png);
+    background-position: -9px 222px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.popular-good__show a:last-child{
+    border: 3px solid #63a63e;
+    color: #32425c;
+    padding: 11px 29px;
+    background: #ffffff;
+}
+.popular-good__show a:last-child:hover{
+    border: 3px solid #32425c;
+    transition: 0.5s;
+}
+.popular-good__show a:last-child:active{
+    opacity: 0.3;
+    transition: 0s;
+}
+
+
+.popular-goods__item h3{
+    font-family: "PTSansBold", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    width: 160px;
+    text-align: center;
+}
+
+
+
+
+

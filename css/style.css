@@ -581,9 +581,6 @@ background: #518534;
 
 
 
-
-
-
 .popular{
     display: flex;
     justify-content: space-between;
@@ -609,8 +606,10 @@ background: #518534;
 
 .popular-manufactures__goods a:hover{
     box-shadow:  0 0 10px #aeb2ba;
+    transition: 0.5s;
 }
 .popular-manufactures__goods a:active{
     opacity: 0.3;
     box-shadow:0 0 10px #aeb2ba;
+    transition: 0s;
 }

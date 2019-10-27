@@ -42,7 +42,7 @@
 }
 
 
-body, h1, h2, h3, h4, p{
+body, h1, h2, h3, h4, p, ul{
     padding: 0;
     margin: 0;
 }
@@ -538,4 +538,79 @@ background: #518534;
     width: 100px;
     background-position: 0 0;
     height: 80px;
+}
+
+
+
+
+
+.popular-heading{
+    background: #f9f5f0;
+    height: 89px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.popular-heading h2{
+    font-family: "CuprumBold", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #32425c;
+}
+.popular-heading a{
+    text-decoration: none;
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 14px 55px;
+    background: #ee3643;
+    border-radius: 3px;
+}
+.popular-heading a:hover{
+    background: #ca2c37;
+    transition: 0.5s;
+}
+.popular-heading a:active{
+    background: #ba2732;
+    transition: 0s;
+}
+
+
+
+
+
+
+.popular{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 33px;
+}
+.popular-manufactures__goods a{
+    height: 143px;
+    width: 218px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.popular-manufactures__goods ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.popular-manufactures__goods a:hover{
+    box-shadow:  0 0 10px #aeb2ba;
+}
+.popular-manufactures__goods a:active{
+    opacity: 0.3;
+    box-shadow:0 0 10px #aeb2ba;
 }

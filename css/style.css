@@ -42,7 +42,7 @@
 }
 
 
-body, h1, h2, h3, h4, p{
+body, h1, h2, h3, h4, p, ul, li{
     padding: 0;
     margin: 0;
 }
@@ -539,3 +539,120 @@ background: #518534;
     background-position: 0 0;
     height: 80px;
 }
+
+
+
+
+
+.service{
+    background: #f5f8fa;
+}
+
+.service__wrap{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.service__slider{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.service__nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.service__head h3{
+    font-family: "CuprumBold", sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.service__wrap p{
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    color: #000;
+}
+
+.service__nav-result{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.service__info h3{
+    font-family: "Cuprum", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color:#32425c;
+    margin-bottom: 34px;
+}
+.service__info{
+    position: relative;
+    z-index: 1;
+
+}
+.service__delivery:before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 30px;
+    left: 150px;
+    width: 470px;
+    height: 261px;
+    background: url(../images/service-car.png)no-repeat;
+
+}
+
+.service__nav{
+    position: relative;
+    margin-right: 80px;
+    height: 279px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.service__nav:before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    width: 10px;
+    height: 279px;
+    background: url(../images/shadow.png)no-repeat;
+}
+.service__nav li{
+    font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    background: #32425c;
+    border-bottom: 1px solid #4e637c;
+    color: #fff;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.service__nav li:hover{
+    background: #293449;
+}
+.service__nav li:active{
+    background: #fff;
+    color: #32425c;
+}
+.service__guarantee{
+    display: none;
+}
+.service__credit{
+    display: none;
+}
+
+
+
+

@@ -606,6 +606,23 @@ footer{
 .footer__wrap-nav a{
     color: #ffffff;
 }
+.footer__wrap-nav a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.footer__wrap-nav a:active{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.3;
+}
+.footer__address-nav a:hover{
+    text-decoration: underline;
+    color: #ffd180;
+}
+.footer__address-nav a:active{
+    text-decoration: none;
+    color: red;
+}
 .footer__wrap-nav ul li{
     margin-left: 60px;
 }
@@ -668,6 +685,7 @@ footer{
     border-radius: 50%;
     font-size: 0;
 }
+
 .footer__social-item{
     text-decoration: none;
     color: #fff;
@@ -678,7 +696,19 @@ footer{
     background-repeat: no-repeat;
     background-position: 7px 9px;
 }
+.footer__social--vkontakte:hover{
+    background: #ee3643;
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+}
 .footer__social--facebook{
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: -38px 9px;
+}
+.footer__social--facebook:hover{
+    background: #ee3643;
     background-image:url("../images/socail.png");
     background-repeat: no-repeat;
     background-position: -38px 9px;
@@ -688,6 +718,15 @@ footer{
     background-repeat: no-repeat;
     background-position: -82px 9px;
 }
+.footer__social--instagram:hover{
+    background: #ee3643;
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: -82px 9px;
+}
+.footer__social-btn a:nth-child(2){
+    margin: 0 3px;
+}
 .footer__feedback{
     display: flex;
 }
@@ -696,6 +735,14 @@ footer{
     text-decoration: none;
     font-family: "Cuprum", sans-serif;
     font-size: 16px;
+}
+.footer__feedback a:hover{
+    text-decoration: underline;
+    color: #ffd180;
+}
+.footer__feedback a:active{
+    text-decoration: none;
+    color: red;
 }
 .footer__feedback ul{
     display: flex;

@@ -656,3 +656,223 @@ background: #518534;
 
 
 
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer__top{
+    background: #32425c;
+}
+
+.footer__bottom{
+    background: #293449;
+}
+.footer__wrap{
+    flex-direction: column;
+
+}
+.footer__wrap ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer__wrap a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+}
+.footer__logo-nav{
+    display: flex;
+    height: 68px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer__wrap-nav{
+    display: flex;
+    align-self: flex-end;
+}
+.footer__logo a{
+    font-family: "Cuprum", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    text-decoration: none;
+    background: #ee3643;
+    color: #ffffff;
+    box-shadow: 0 5px 0 0 #b52933;
+}
+.footer__logo a:hover{
+    background: #ca2c37;
+    box-shadow: 0 5px 0 0 #9a212a;
+}
+.footer__logo a:active{
+    background: #ba2732;
+    box-shadow: 0 5px 0 0 #8e1e26;
+}
+.footer__wrap-nav ul{
+    display: flex;
+    color: #f3f7f9;
+
+}
+.footer__wrap-nav a{
+    color: #ffffff;
+}
+.footer__wrap-nav a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.footer__wrap-nav a:active{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.3;
+}
+.footer__address-nav a:hover{
+    text-decoration: underline;
+    color: #ffd180;
+}
+.footer__address-nav a:active{
+    text-decoration: none;
+    color: red;
+}
+.footer__wrap-nav ul li{
+    margin-left: 60px;
+}
+
+
+.footer__address-nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+}
+.footer__address-nav address{
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    width: 340px;
+    color: #ffffff;
+    padding-bottom: 53px;
+}
+
+.footer__address-nav ul li{
+    margin-left: 60px;
+}
+
+.footer__address-nav a{
+    color: #ffda96;
+}
+
+
+
+.footer__bottom{
+    background: #293449;
+
+}
+.footer__bottom-wrap{
+    flex-direction: row;
+    justify-content: space-between;
+    height: 107px;
+    align-items: center;
+}
+.footer__bottom-wrap ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.footer__copyright{
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer__social-btn{
+    display: flex;
+    flex-direction: row;
+}
+.footer__social-item{
+    background: #212a3a;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.footer__social-item{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social--vkontakte{
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+}
+.footer__social--vkontakte:hover{
+    background: #ee3643;
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+}
+.footer__social--facebook{
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: -38px 9px;
+}
+.footer__social--facebook:hover{
+    background: #ee3643;
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: -38px 9px;
+}
+.footer__social--instagram{
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: -82px 9px;
+}
+.footer__social--instagram:hover{
+    background: #ee3643;
+    background-image:url("../images/socail.png");
+    background-repeat: no-repeat;
+    background-position: -82px 9px;
+}
+.footer__social-btn a:nth-child(2){
+    margin: 0 3px;
+}
+.footer__feedback{
+    display: flex;
+}
+.footer__feedback a{
+    color: #ffd180;
+    text-decoration: none;
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+}
+.footer__feedback a:hover{
+    text-decoration: underline;
+    color: #ffd180;
+}
+.footer__feedback a:active{
+    text-decoration: none;
+    color: red;
+}
+.footer__feedback ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer__feedback ul li{
+    display:flex;
+    flex-direction: column;
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer__feedback ul li:first-child{
+    margin-right: 53px;
+}
